@@ -1,6 +1,6 @@
 import { useState } from "react";   
 
-function QuantityPicker(){
+function QuantityPicker(props){
     let [quantity, setQuantity] = useState(1);
     
     function increaseQuantity(){
